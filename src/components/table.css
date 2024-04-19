@@ -1,0 +1,43 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #10855a;
+    color: white;
+  }
+  table button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  table img{
+    max-width: 15px;
+    max-height: 15px;
+  }
+
+ tr > td:nth-child(6){
+  display: flex;
+  flex-direction:row ;
+  gap: 20px;
+ }
+ @media screen and (min-width: 768px){
+  tr > td:nth-child(6){
+    position: absolute;
+    right: 0;
+   }
+ }
